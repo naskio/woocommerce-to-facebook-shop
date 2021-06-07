@@ -7,6 +7,11 @@
   Gatsby minimal starter
 </h1>
 
+```
+gatsby clean
+gatsby develop
+```
+
 # woocommerce-to-fb-shop
 Export WooCommerce products to Facebook Shop online
 
