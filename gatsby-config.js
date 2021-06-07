@@ -1,6 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: "WooCommerceToFacebookShop",
+        title: "Woo Commerce to Facebook Shop",
+        siteUrl: `https://woocommerce-to-fb-shop.nask.io/`,
     },
     plugins: [
         "gatsby-plugin-image",
@@ -27,7 +28,7 @@ module.exports = {
             },
             __key: "images",
         },
-        // adding Material UI with a custom theme
+        // Material UI with a custom theme
         {
             resolve: `gatsby-plugin-material-ui`,
             options: {
@@ -37,5 +38,9 @@ module.exports = {
             },
         },
         `custom-mui-theme`,
+        // sitemap
+        `gatsby-plugin-advanced-sitemap`,
+        // robots-txt
+        'gatsby-plugin-robots-txt',
     ],
 };

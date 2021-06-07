@@ -12,6 +12,13 @@ gatsby clean
 gatsby develop
 ```
 
+# Danfo JS
+https://danfo.jsdata.org/examples/using-danfojs-in-react
+https://danfo.jsdata.org/getting-started
+https://www.gatsbyjs.com/docs/reference/gatsby-project-structure/
+
+
+
 # woocommerce-to-fb-shop
 Export WooCommerce products to Facebook Shop online
 
