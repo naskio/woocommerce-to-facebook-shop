@@ -1,6 +1,8 @@
 import * as React from "react"
+import {useEffect} from "react";
 import {Helmet} from "react-helmet"
 import {Button} from '@material-ui/core'
+import {demo} from '../utils/dataframe'
 
 
 // styles
@@ -130,6 +132,13 @@ const links = [
 
 // markup
 const IndexPage = () => {
+    useEffect(() => {
+        demo();
+        return () => {
+        };
+    }, []);
+
+
     return (
         <main style={pageStyles}>
             <Helmet>
