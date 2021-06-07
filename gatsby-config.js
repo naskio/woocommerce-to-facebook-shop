@@ -39,7 +39,7 @@ module.exports = {
         },
         `custom-mui-theme`,
         // sitemap
-        `gatsby-plugin-advanced-sitemap`,
+        `gatsby-plugin-sitemap`,
         // robots-txt
         'gatsby-plugin-robots-txt',
     ],
